@@ -1,0 +1,102 @@
+
+*{
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    top: 7px;
+    left: 700px;
+    animation: zoom 2s;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+h2{
+    font-size: 40px;
+    line-height: 2px;
+    padding: 10px;
+    color:black;
+}
+
+p{
+    padding: 10px;
+    line-height: 5px;
+    font-style: italic;
+    color:black;
+}
+
+h1{
+    padding: 30px;
+    margin-left: 130px;
+    color:black;
+}
+
+.page{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+
+
+}
+
+.page1{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+    border: 2px solid purple;
+    padding: 10px;
+
+}
+    
+
+.botao:hover{
+    color: white;
+    background-color:purple;
+    
+}
+
+img{
+    position: relative;
+    animation:zoom 2s;
+
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+input::placeholder{
+    font-size: 15px;
+    color: white;
+    
+}
+
+::placeholder{
+    background-color:purple;
+}
+legend{
+    font-size: 20px;
+}

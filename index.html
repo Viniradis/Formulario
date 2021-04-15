@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de Entrega </title>
+</head>
+<body>
+        <img src="https://images.unsplash.com/photo-1582897000023-dd004d8452e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" alt="fundo">
+
+        <div class="container">
+        <h2>Nespresso.</h2>
+        <p>Seu café na sua casa. 🏠</p>
+        <h1>Dados para Entrega:</h1>
+        
+
+    <fieldset class="page">
+     <label for="name">Nome:</label>
+     <input type="text" id="name" placeholder="Nome" required>
+            
+    <label for="sobrenome">Sobrenome:</label>
+    <input type="text" placeholder="Sobrenome"><br>
+    <br>
+            
+    <label for="email">E-mail:</label>
+    <input type="email" placeholder="E-mail" required>
+
+    <label for="endereço">Endereço de entrega:</label>
+    <input type="text" placeholder="Avenida"><br>
+    <br>
+
+    <label for="complemento">Complemento:</label>
+    <input type="text" placeholder="Numero">
+
+    <label for="cidade">Cidade:</label>
+    <input type="text" placeholder="Cidade"><br>
+    <br>
+
+    <label for="CPF">CPF:</label>
+    <input type="text" placeholder="CPF">
+
+    <label for="telefone">Telefone:</label>
+    <input type="text" placeholder="(dd)0000-000">
+    </fieldset>
+            
+    <fieldset class="page1">
+        <legend>O Café:</legend>
+    <label for="sobre">Qual tipo de café você escolheu?</label>
+    
+    <input type="radio" id="cafe" name="cafe">Intenso
+    <input type="radio" id="cafe" name="cafe">Equilibrado
+    <br>
+    <br>
+    
+    <label for="cafenome">Qual o café escolhido?</label>
+                
+        <select name="cafe" id="cafe">
+            <option value="">Selecione</option>
+            <option value="Roma">Roma</option>
+            <option value="India">India</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Etipoia">Etiopia</option>
+            <option value="Napoli">Napoli</option>
+            <option value="Nicaragua">Nicaragua</option>
+        </select>
+    </fieldset> <br>
+
+        
+        <a href="/pagina.html" target="_blank"> Clique aqui para entregar</a>
+        
+    </div>
+
+  </body>
+</html>
