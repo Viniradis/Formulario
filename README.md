@@ -1,3 +1,6 @@
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/2875/2875409.png" alt="logo-play" width="600"> </p>
+
+
 # Formulário
 Formulário desenvolvido para treinar a criação de formulários.
 
